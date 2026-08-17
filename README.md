@@ -8,4 +8,4 @@
 # Quarter 1
 ## Activities
 ### Computational Thinking Skills
-#### [View my Computational Thinking Exercise](Quarter 1/ctskillsSiliconOlayta.md)
+#### [View my Computational Thinking Exercise](Quarter1/ctskillsSiliconOlayta.md)
