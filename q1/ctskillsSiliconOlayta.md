@@ -26,9 +26,12 @@ Inefficient manual ordering, checkout, and inventory operations at the canteen.
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
-Lack of inventory tracking
+Manual and slow checkout process
 ### Pseudocode
+START
 
-Write your algorithm here.
+INPUT ProductPrice
+ASK user to scan barcode and pay the exact amount of ProductPrice using any mobile wallet.
+
 END
 ---
