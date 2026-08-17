@@ -11,10 +11,10 @@
 Inefficient manual ordering, checkout, and inventory operations at the canteen.
 ---
 ## Step 2: Identify the Sub-Problems
-1. 
-2. 
-3. 
-4. 
+1. Slow customer decision making.
+2. Manual and slow checkout process.
+3. Lack of inventory tracking.
+4. Data disjointness.
 ---
 ## Step 3: Apply Computational Thinking Skills
 | Sub-Problem | CT Skill | Proposed Solution |
