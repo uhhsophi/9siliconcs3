@@ -19,10 +19,10 @@ Inefficient manual ordering, checkout, and inventory operations at the canteen.
 ## Step 3: Apply Computational Thinking Skills
 | Sub-Problem | CT Skill | Proposed Solution |
 |---|---|---|
-| Sub-problem 1 | CT skill | Brief proposed solution |
-| Sub-problem 2 | CT skill | Brief proposed solution |
-| Sub-problem 3 | CT skill | Brief proposed solution |
-| Sub-problem 4 | CT skill | Brief proposed solution |
+| Slow customer decision making. | Abstraction | Create a simplified suer interface that filters items by categories, highlights daily bestsellers and hides non-essential product details to reduce choice paralysis. |
+| Manual and slow checkout process. | Algorithmic Thinking | Design a step-by-step automated workflow using barcode scanning and integrated digital payment gateways to eliminate manual data entry. |
+| Lack of inventory tracking. | Pattern Recognition | Implement an automated data logging loop that cross-references sale spiles and historical buying trends to predict stock storages in real-time. |
+| Data disjointness. | Decomposition | Break the fragmented system down to isolated data streams and unify them using a centralized database. |
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
