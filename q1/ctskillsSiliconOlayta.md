@@ -26,35 +26,9 @@ Inefficient manual ordering, checkout, and inventory operations at the canteen.
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
-Write the sub-problem you selected.
+Lack of inventory tracking
 ### Pseudocode
-START
 
-  // 1. Unified Setup
-  CONNECT to CentralDatabase
-
-  // 2. Automated Checkout (Barcode & Payment Workflow)
-  PRINT "Scan item barcode:"
-  READ Barcode
-  
-  FIND Item IN CentralDatabase USING Barcode
-  IF Item EXISTS AND Item.Stock > 0 THEN
-    PROCESS DigitalPayment(Item.Price)
-    UPDATE CentralDatabase: Reduce Item.Stock by 1
-    LOG Sale(Item.ID, CurrentTime)
-    PRINT "Receipt printed. Success!"
-  ELSE
-    PRINT "Item unavailable."
-  END IF
-
-  // 3. Simple Pattern Recognition (Stock Prediction)
-  READ TotalSalesLastWeek FROM CentralDatabase
-  
-  IF Item.Stock < TotalSalesLastWeek THEN
-    PRINT "ALERT: Reorder stock immediately!"
-  END IF
-
-END
 Write your algorithm here.
 END
 ---
