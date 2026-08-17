@@ -28,9 +28,11 @@ Inefficient manual ordering, checkout, and inventory operations at the canteen.
 ### Selected Sub-Problem
 Manual and slow checkout process
 ### Pseudocode
+
 START
 
 INPUT ProductPrice
+
 ASK user to scan barcode and pay the exact amount of ProductPrice using any mobile wallet.
 
 END
