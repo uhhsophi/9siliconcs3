@@ -30,7 +30,9 @@ def get_chinese_zodiac():
         except ValueError:
             print("Please enter a valid numeric year.")
             
+get_chinese_zodiac()
+
 https://drive.google.com/file/d/1_y7Huu5k9fqdocTJO6BFIkw6TQZ3I1kA/view?usp=classroom_web&authuser=0
 
 
-get_chinese_zodiac()
+
