@@ -36,4 +36,5 @@ INPUT ProductPrice
 ASK user to scan barcode and pay the exact amount of ProductPrice using any mobile wallet.
 
 END
+
 ---
