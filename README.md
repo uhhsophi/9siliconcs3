@@ -14,3 +14,4 @@
 #### [View my Computational Thinking Exercise](q1/ctskillsSiliconOlayta.md)
 ### Chinese Zodiac
 #### [View my Chinese Zodiac Exercise](q1/zodiacSiliconOlayta.md)
+### [View my OOP Concept Exercise](q1/ila_oop.md)
