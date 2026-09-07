@@ -5,7 +5,7 @@
 | Property | Data Type | Description |
 |---|---|---|
 |Available|Boolean|Indicates whether or not the item is available|
-|Type|String|It determines what sort of Apple Product.|
+|Type|String|It determines what sort of Apple Product it is.|
 |Color|String|Color of the Apple Product|
 |IsWorking|Boolean|It determines whether or not the product is functioning|
 
