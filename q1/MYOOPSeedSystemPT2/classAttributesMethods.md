@@ -12,7 +12,7 @@ No changes were made, nor were needed in my previous design.
 |Color|String|Private|Protects the product detail from being changed without tracking the modification.|
 |IsWorking|Boolean|Private|Enforces safety soa broken product can only be marked active via repair method.|
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+![Class Diagram](images/classDiagram.png)
 ## Python Implementation
 
 [View Python Source](classImplementation.py)
