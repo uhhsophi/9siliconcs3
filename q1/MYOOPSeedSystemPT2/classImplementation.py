@@ -1,67 +1,76 @@
-class Power Mac Center: #Creates a class named "Power Mac Center".
-    
-    #Creates a function that lists down all the attributes in one function.
-    def __init__(self, Color, Type, Color, IsWorking):
-        self.__available = Available
-        self.__type = Type
-        self.__color = Color
-        self.__IsWorking = IsWorking
-        
-    #Creates a function which materializes the method tune() and lets it get called and utilized later on.
-    def available(self):
-        self.__Availabile = True
-        print("Status: Available")
+class Power Mac Center:
+    # Creates a constructor to initialize the attributes.
+    def __init__(self, color, p_type, available, is_working):
+        self.__color = color
+        self.__type = p_type
+        self.__available = available
+        self.__is_working = is_working
 
-    #Creates a function which checks if the product is working.
-      def IsWorking(self):
-        self.__IsWorking = True
+    # Creates a function to make the product available or repaired.
+    def repair(self):
+        self.__is_working = True
         print("Status: Working")
 
-    #Creates a function getColor() which calls and displays the attribute "Color".
+    # Creates a function to check if available.
+    def make_available(self):
+        self.__available = True
+        print("Status: Available")
+
+    # Creates a function getColor() which returns the attribute color.
     def getColor(self):
         return self.__color
 
-    #Creates a function getType() which calls and displays the attribute "Type".
+    # Creates a function getType() which returns the attribute type.
     def getType(self):
         return self.__type
 
-    #Creates a function getAvailable() which calls and displays the attribute "IsTuned".
+    # Creates a function getAvailable() which returns availability.
     def getAvailable(self):
-        return self.__Available
+        return self.__available
 
-    #Creates a function getIsWorking() which calls and displays a private attribute "IsPlayable". 
+    # Creates a function getIsWorking() which returns working status.
     def getIsWorking(self):
-        return self.__IsWorking
+        return self.__is_working
 
 
-object1 = Instrument("Blue", "iPhone 14", True, False) #Assigns an object named "object1" which contains all of its attributes in one compiled parameter.
-object2 = Instrument("Red", "iPhone 13", True, True) #Assigns another object named "object2" which also contains all of its attributes in a compiled parameter.
+# Assigns an object named object1 with initial attributes.
+object1 = Power Mac Center("Blue", "iPhone 14", True, False)
 
-print("---INITIAL STATE---") #Prints out all of the assigned attributes and calling all of the previous functions of both objects BEFORE the chosen method is performed.
+# Assigns another object named object2 with initial attributes.
+object2 = Power Mac Center("Red", "iPhone 13", True, True)
+
+# Prints out initial state of both objects.
+print("---INITIAL STATE---")
 print("OBJECT 1:")
 print("Color:", object1.getColor())
 print("Type:", object1.getType())
 print("Available:", object1.getAvailable())
-print("Playable:", object1.getIsWorking())
-
-print("")
+print("Working:", object1.getIsWorking())
+print()
 
 print("OBJECT 2:")
 print("Color:", object2.getColor())
 print("Type:", object2.getType())
 print("Available:", object2.getAvailable())
-print("Playable:", object2.getIsWorking())
+print("Working:", object2.getIsWorking())
+print()
 
-print("")
+# Performs repair method on object1.
 print("Doing repair() method on OBJECT 1...")
-object1.repair() #Calls the method tune() to repair "object1" and perform the assigned task to the function.
-print("")
+object1.repair()
+print()
 
-print("---FINAL STATE---") #Prints the final state and attributes of both objects AFTER the method repair() was perfoemd on "object1" whilst leaving "object2" unchanged.    
+# Prints the final state of both objects.
+print("---FINAL STATE---")
 print("OBJECT 1:")
 print("Color:", object1.getColor())
 print("Type:", object1.getType())
 print("Available:", object1.getAvailable())
-print("Playable:", object1.getIsWorking())
-
+print("Working:", object1.getIsWorking())
 print()
+
+print("OBJECT 2:")
+print("Color:", object2.getColor())
+print("Type:", object2.getType())
+print("Available:", object2.getAvailable())
+print("Working:", object2.getIsWorking())
