@@ -1,7 +1,7 @@
 # Class Attributes and Methods
 ## Previous Design
 Link to my previous activity:
-[classObjectUML.md](classObjectUML.md)
+[My Previous Activity](MYOOPSeedSystemPT1)
 ## Design Revision
 No changes were made, nor were needed in my previous design.
 ## Visibility Decisions
