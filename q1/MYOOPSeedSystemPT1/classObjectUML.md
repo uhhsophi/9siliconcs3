@@ -12,9 +12,9 @@
 ## Methods
 | Method | Description |
 |---|---|
-|Open|This method determines an action which lets the Apple Product turn on|
-|upVolume|This method determines a method or action which lets the Apple Product's volume go up|
-|Mute|This method determines a method or action which lets the Apple Product's volume mute.|
+|toggleAvailability|This method changes whether or not the product or center is available|
+|repair|This method sets the functioning status of the product to be true|
+|updateType|This method updates the classification or model type of the product..|
 ## Class Diagram
 ![Class Diagram](Images/classDiagram.png)
 ## Design Explanation
@@ -23,4 +23,4 @@ I chose this because it was the first thing I thought of.
 ### Which property is the most important? Why?
 The most important property is IsWorking because it is important for the Product to be functional.
 ### Which method is the most useful? Why?
-The most important property is "Open", because without it, it's important for a product to be open for it to be usable.
+The most important property is "repair", if something within the product isn't working, then fixing it with repair makes everything relevant again.
