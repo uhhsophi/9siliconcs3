@@ -18,5 +18,5 @@
 #### [View my OOP Concept Exercise](q1/ila_oop.md)
 ### OOP Seed System 1
 #### [View my OOP Seed System Part 1 Exercise](q1/MYOOPSeedSystemPT1)
-### - OOP Seed System Part 2
+### OOP Seed System Part 2
 #### [View my OOP Seed System Part 2 Exercise](q1/MyOOPSeedSystemPT2]
