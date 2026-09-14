@@ -4,7 +4,7 @@
 [Part II - Class Attributes and Methods](classAttributesMethods.md)
 
 ## Existing Class
-Class:
+Class: PowerMacCenter
 
 Description:
 
