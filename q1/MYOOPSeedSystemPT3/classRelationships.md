@@ -6,22 +6,26 @@
 ## Existing Class
 Class: PowerMacCenter
 
-Description:
+Description: Class represents this as a place that sells Apple Products.
+
 
 ## New Related Class
 Class:
 
 Description:
 
+
 ## Association
 Relationship:
 
 Explanation:
 
+
 ## Multiplicity
 Multiplicity:
 
 Explanation:
+
 
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
@@ -34,6 +38,7 @@ Explanation:
 
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+
 
 ## Analysis
 ### What is the association between your two classes?
