@@ -26,5 +26,5 @@
 #### [View my OOP Seed System Part 3 Exercise](q1/MyOOPSeedSystemPT4)
 ---
 # Quarter 2
-### - Encapsulation Exercise
-[View my Encapsulation Exercise](q2/sg8_encapsulation.py)
+### Encapsulation Exercise
+#### [View my Encapsulation Exercise](q2/sg8_encapsulation.py)
