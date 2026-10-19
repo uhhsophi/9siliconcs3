@@ -28,3 +28,5 @@
 # Quarter 2
 ### Encapsulation Exercise
 #### [View my Encapsulation Exercise](q2/sg8_encapsulation.py)
+### Library Management System
+#### [View my Library Management System](q2/sg9_inheritance.py)
