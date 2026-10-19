@@ -35,3 +35,22 @@ def account_number(self):
 @property
 def balance(self):
   return self.__balance
+
+# --- Testing the code ---
+
+# 1. Create a new object of class bankAccount
+a1 = bankAccount(12345, 1000)
+
+#Display initial info using the getter properties
+print("Account 1")
+print(f"Account Number: {a1.account_number}")
+print(f"Balance: {a1.balance:.2f}\n")
+
+# 2. Try to change the balance to a negative number using the setter method
+print("Update balance to -100")
+a1.set_balance(-100)
+
+# 3. Print the account details again using getter properties to show how it stayed at 1000.00
+print("Account 1")
+print(f"Account Number: {a1.account_number}")
+print(f"Balance: {a1.balance:.2f}")
