@@ -24,3 +24,14 @@ def set_balance(self, balance):
     #If zero of positive, update the private balance variable
     self.__balance = balance
 
+# --- GETTER METHODS ---
+
+#Public getter property for account number
+@property
+def account_number(self):
+  return self.__account_number
+
+#Public getter property for balance
+@property
+def balance(self):
+  return self.__balance
