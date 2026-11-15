@@ -34,5 +34,5 @@
 #### [View my Zoo Management System](q2/sg10_methodoverriding.py)
 ### Enhanced Hospital Billing System
 #### [View my Enhanced Hospital Billing System](q2/sg11/activity1.py)
-### Duck-typing/Polymorphism without Inheritance
-#### [View my Duck-typing/Polymorphism without Inheritance](q2/sg11)
+### SG 11 Activity 2
+#### [View my SG 11 Activity 2](q2/sg11)
