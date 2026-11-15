@@ -3,3 +3,4 @@
 ### 1b. What did the Car class need to have so it could work inside the same loop as Dog and Cat, even if it does not inherit from the Animal class?
 #### The Car class simply needed to have the same method name (such as speak()) that the Dog and Cat classes use inside the loop.
 ---
+### 3. The code demonstrates polymorphism because the single function start_trip(vehicle) can accept objects of different, unrelated classes (Car, Boat, and Drone) and call the same move() method on each of them. Even though the method call vehicle.move() looks identical, each object responds in its own unique way depending on its class.
