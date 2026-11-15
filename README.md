@@ -30,3 +30,5 @@
 #### [View my Encapsulation Exercise](q2/sg8_encapsulation.py)
 ### Library Management System
 #### [View my Library Management System](q2/sg9_inheritance.py)
+### Method Overriding Exercise
+#### [View my Zoo Management System](q2/sg10_methodoverriding.py)
