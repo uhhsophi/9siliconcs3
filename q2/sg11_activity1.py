@@ -1,25 +1,25 @@
 class Patient:
-  def __init__(self, name: str, bill_amount: float):
-    self.__name = name
-    self.__bill_amount = bill_amount
+    def __init__(self, name: str, bill_amount: float):
+        self.__name = name
+        self.__bill_amount = bill_amount
 
-  def get_name(self) -> str:
-    return self.__name
+    def get_name(self) -> str:
+        return self.__name
 
-  def set_name(self, name: str):
-    return self.__name = name
+    def set_name(self, name: str):
+        self.__name = name
 
-  def get_bill_amount(self) -> float:
-    return self.__bill_amount
+    def get_bill_amount(self) -> float:
+        return self.__bill_amount
 
-  def set_bill_amount(self, bill_amount: float):
-    self.__bill_amount = bill_amount
+    def set_bill_amount(self, bill_amount: float):
+        self.__bill_amount = bill_amount
 
-  def calculate_bill(self) -> float:
-    return self.__bill_amount
+    def calculate_bill(self) -> float:
+        return self.__bill_amount
 
-  def display_patient_type(self):
-    print("Patient Type: Regular Patient")
+    def display_patient_type(self):
+        print("Patient Type: Regular Patient")
 
 
 class SeniorPatient(Patient):
